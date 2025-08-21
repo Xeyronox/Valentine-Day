@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: valentine-day-web
+    env: static
+    staticPublishPath: '.'
+    buildCommand: 'npm install && npm run build'
+    branch: master
+    repo: https://github.com/Xeyronox/Valentine-Day
+   
